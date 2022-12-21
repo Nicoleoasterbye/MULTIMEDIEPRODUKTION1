@@ -1,0 +1,1610 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&display=swap');
+
+
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFFBF1;
+    text-decoration: none;
+}
+
+main {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+
+}
+
+#ungeurterhashtag {
+    font-family: 'Montserrat';
+    color: #35543D;
+    padding-left: 95px;
+    font-size: 12pt;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL'0,
+        'wght'400,
+        'GRAD'0,
+        'opsz'48
+}
+
+nav .navigation a,
+a:hover {
+    text-decoration: none;
+
+}
+
+.navigation {
+
+    display: flex;
+    justify-content: flex-end;
+    background: #121212;
+    padding: 5px 15px;
+    position: relative;
+    font-family: 'Montserrat';
+
+}
+
+.navigation a {
+    float: right;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    opacity: 0.7;
+}
+
+/* logo style start  */
+.logo1 {
+    flex: 1;
+}
+
+.logo1 a {
+    display: flex;
+
+    align-items: center;
+    font-size: 12px;
+}
+
+.logo1 a:hover {
+    opacity: 0.7;
+}
+
+.logo1 img {
+    width: 90px;
+    margin-right: 10px;
+}
+
+/* logo style slut */
+
+
+/* NAV STYLE START */
+.navitem {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navitem li {
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+.toggle {
+    font-size: 30px;
+    display: none;
+}
+
+/* NAV STYLE SLUT */
+/* ------------------------------ STYLE SIDE 1-------------------------- */
+/* -----flexbox style side 1---- */
+* {
+    box-sizing: border-box;
+}
+
+#h1overskrift1 {
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 12pt;
+    padding: 10px;
+    text-align: left;
+    padding-left: 8%;
+    padding-bottom: 50px;
+    line-height: 1.5;
+    color: #232121;
+}
+
+.flexboxside1 {
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.flexbox2side1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flexboxside1right {
+    background-color: #231F20;
+    padding: 10px;
+    flex: 50%;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+.flexboxside1left {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+
+.flexboxside1center {
+    background-color: #FFFBF1;
+    padding: 0px;
+    flex: 50%;
+}
+
+
+/* -----CONTENT side 1 style------ */
+
+#side1baggrund {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1px;
+    z-index: -1;
+    margin-top: -10px;
+}
+
+.ungeurter1 {
+    width: 100%;
+}
+
+
+#ungeurtertext1 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 25pt;
+    color: #f1f1f1;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 5%;
+    text-shadow: 2px 2px 8px rgb(18, 17, 17);
+}
+
+#ungeurtertext2 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 25pt;
+    color: #f1f1f1;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 5%;
+    text-shadow: 2px 2px 8px rgb(18, 17, 17);
+}
+
+#ungeurterunderskrift1 {
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 12pt;
+    padding: 10px;
+    text-align: left;
+    padding-left: 5%;
+    line-height: 1.5;
+    color: #f1f1f1;
+}
+
+#infostudentside1 {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 2px 8px 10px rgb(111, 104, 104);
+}
+
+/* options side 1 */
+#option1side1 {
+    width: 50%;
+    border-radius: 50%;
+    transition: width 0.2s;
+}
+
+
+#option2side1 {
+    width: 50%;
+    margin-bottom: -8px;
+    border-radius: 50%;
+    transition: width 0.2s;
+
+}
+
+#option3side1 {
+    width: 50%;
+    border-radius: 50%;
+    transition: width 0.2s;
+}
+
+#option4side1 {
+    margin-bottom: -9px;
+    border-radius: 50%;
+    width: 50%;
+    transition: width 0.2s;
+}
+
+/* overskrifter side 1 */
+#opskriftertext1,#produktertext1,#kassertext1,#markertext1 {
+    font-size: 25pt;
+    font-family: 'Londrina Solid', cursive;
+    color: #231F20;
+    letter-spacing: 1px;
+}
+
+
+/* underoverskrifter side 1 */
+#h1underskrift1,#h2underskrift1,#h3underskrift1,#h4underskrift1 {
+    font-size: 10pt;
+    line-height: 1.5;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Montserrat';
+    text-align: left;
+}
+
+#mærkertext {
+    font-size: 8pt;
+    font-family: 'Montserrat';
+    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    letter-spacing: 1px;
+}
+#mærkertext1 {
+    font-size: 8pt;
+    font-family: 'Montserrat';
+    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    letter-spacing: 1px;
+}
+
+#mærkertext2 {
+    font-size: 8pt;
+    font-family: 'Montserrat';
+    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    letter-spacing: 1px;
+}
+
+
+#mærkertext3 {
+    font-size: 8pt;
+    font-family: 'Montserrat';
+    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    letter-spacing: 1px;
+
+}
+
+
+#mærkertext4 {
+    font-size: 8pt;
+    font-family: 'Montserrat';
+    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    letter-spacing: 1px;
+
+}
+
+
+#mærkertext5 {
+    font-size: 8pt;
+    font-family: 'Montserrat';
+    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    letter-spacing: 1px;
+
+}
+
+#mærkertext6 {
+    font-size: 8pt;
+    font-family: 'Montserrat';
+    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    letter-spacing: 1px;
+
+}
+/* effekter side 1 */
+#option1side1:hover,#option2side1:hover,#option3side1:hover,#option4side1:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 51%;
+}
+
+
+/* ----------------------------- SIDE 2 STYLE---------------------------------- */
+
+/* flexbox style side 2  */
+
+.flexboxside2,.flexbox2side2,.flexbox3side2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.flexboxside2left {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flexboxside2right {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flexbox2side2right {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+
+.flexbox2side2left {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+
+.flexbox3side2right {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flexbox3side2left {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+
+/* ---CONTENT side 2 start---- */
+
+#side2baggrund {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    z-index: -1;
+    margin-top: 0px;
+}
+
+#infoopskrifterside2,#infokrydderierside2 {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* options style side 2 */
+
+#option1side2,#option2side2  {
+    width: 100%;
+    margin-top: 30%;
+    transition: width 0.2s;
+}
+
+#option3side2,#option4side2 {
+    width: 100%;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    transition: width 0.2s;
+}
+
+/* overskrifter style side 2 */
+#pastatext2,#grodtext2,#linsertext2,#ristext2 {
+    font-size: 25pt;
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 2px 2px #F6B970;
+    color: #3C3C3B;
+    letter-spacing: 1.2px;
+}
+
+
+
+/* under-overskrifter style side 2 */
+
+#h1underskrift2,#h2underskrift2,#h3underskrift2,#h4underskrift2 {
+    font-size: 10pt;
+    line-height: 1.5;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Montserrat';
+    text-align: left;
+
+}
+
+
+/* mørker style side 2 */
+#mærke1side2 {
+    width: 50%;
+}
+
+#mærke2side2 {
+    width: 50%;
+}
+
+#mærke3side2 {
+    width: 40%;
+}
+
+#mærke4side2 {
+    width: 50%;
+}
+
+/* effekter side 2 */
+#option1side2:hover,#option2side2:hover,#option3side2:hover,#option4side2:hover  {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 102%;
+    border-radius: 50%;
+}
+
+
+#infoopskrifterside2:hover,#infokrydderierside2:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    transition: .2s ease;
+    width: 101%;
+    border-radius: 8px;
+}
+
+/* -------------------------------SIDE 3 STYLE START--------------------------------- */
+
+/* ---flexbox side 3--- */
+
+.flexboxside3,.flexbox2side3,.flexbox3side3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.flexboxside3left,.flexboxside3center,.flexboxside3right,.flexbox2side3left,.flexbox2side3center,.flexbox2side3right,
+.flexbox3side3right,.flexbox3side3left  {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+/* ---CONTENT side 3 style */
+
+#option1side3,#option2side3,#option3side3,#option4side3,#option5side3,#option6side3  {
+    width: 60%;
+    transition: width 0.2s;
+}
+
+/* overkskrfter side 3 */
+
+#falafelpastatext3,#vodkapastatext3,#sommerpastastext3,#tufopastatext3,#pastabolotext3,#onepottext3 {
+    font-size: 25pt;
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 2px 2px #F6B970;
+    color: #231F20;
+    letter-spacing: 1.2px;
+}
+
+#h1underskrift3,#h2underskrift3,#h3underskrift3,#h4underskrift3,#h5underskrift3,#h5underskrift3,#h6underskrift3 {
+    font-size: 10pt;
+    line-height: 1.5;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #231F20;
+}
+
+
+
+#infosundhverdag3 {
+    width: 90%;
+    border-radius: 8px;
+    transition: .2s ease;
+}
+
+
+
+#infokasse3 {
+    width: 90%;
+    border-radius: 8px;
+    transition: .2s ease;
+}
+
+/* effekter side 3 */
+
+#option1side3:hover,#option2side3:hover,#option3side3:hover,#option4side3:hover,#option5side3:hover,
+#option6side3:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 61%;
+    border-radius: 50%;
+}
+
+
+#infosundhverdag3:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    transition: .2s ease;
+    width: 91%;
+}
+
+#infokasse3:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    transition: .2s ease;
+    width: 91%;
+}
+
+
+
+/* --------------------- SIDE 4 STYLE START -----------------------------------*/
+
+.flexboxside4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.flexbox2side4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.flexbox3side4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.flexbox4side4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flexbox5side4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flexboxside4left {
+    background-color: #272324;
+    padding: 10px;
+    flex: 50%;
+    padding-left: 30px;
+    padding-right: 50px;
+    border-radius: 2%;
+}
+
+
+.flexboxside4right {
+    padding: 10px;
+    padding-right: 50px;
+    flex: 50%;
+
+}
+
+.flexbox2side4right {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+    margin-left: 10px;
+
+    border-radius: 2%;
+}
+
+
+.flexbox2side4left {
+    padding: 10px;
+    flex: 50%;
+
+}
+
+.flexbox3side4right {
+    background-color: #272324;
+    padding: 20px;
+    flex: 50%;
+    margin-top: 10px;
+    border-radius: 2%;
+    padding-left: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.flexbox4side4right {
+    background-image: linear-gradient(#FFFBF1, #db9e53);
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    padding: 10px;
+    flex: 50%;
+    border-radius: 8%;
+}
+
+.flexbox5side4right {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+    margin-top: 5px;
+    border-radius: 2%;
+
+}
+
+.flexbox6side4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flexbox6side4right {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flexbox6side4right {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+/* --- CHECHBOX style side 4 */
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-top: 32px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    text-align: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #FFFBF1;
+}
+
+#hentsenere4{
+    width: 100%;
+}
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+    background-color: #ccc;
+
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: #a2986f;
+
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* CONTENT style side 4 */
+
+#vodkainfo4 {
+    font-size: 12pt;
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    letter-spacing: 0.5px;
+    padding-right: 10%;
+    text-align: left;
+    color: #514741;
+    padding-left: 45px;
+
+
+}
+
+#vodkapastahalv4 {
+    width: 90%;
+    border-radius: 3%;
+}
+
+#falafelpasta4 {
+    width: 40%;
+    transition: width 0.2s;
+}
+
+#linser4 {
+    width: 40%;
+    transition: width 0.2s;
+}
+#pastabolo4{
+    width: 40%;
+    transition: width 0.2s;
+}
+
+#kasse4 {
+    width: 80%;
+
+}
+
+#vudering4 {
+    width: 60%;
+}
+
+#ingredienser4 {
+    text-align: left;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 1.5px;
+    color: #FFFBF1;
+}
+
+#fremgangsmåde1side4 {
+    text-align: left;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 1.5px;
+    color: #FFFBF1;
+}
+#fremgangsmåde2side4 {
+    text-align: left;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 1.5px;
+    color: #FFFBF1;
+}
+
+#ligeneopksrifter4 {
+    text-align: left;
+    font-family: 'Montserrat';
+    letter-spacing: 1.5px;
+    color: #1f1f1d;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#ligeneopksriftertext1side4{
+    font-size: 8pt;
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    letter-spacing: 0.5px;
+    color: #FFFBF1;
+}
+#ligeneopksriftertext2side4{
+    font-size: 8pt;
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    letter-spacing: 0.5px;
+    color: #FFFBF1;
+}
+
+#ligeneopksriftertext3side4{
+    font-size: 8pt;
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    letter-spacing: 0.5px;
+    color: #FFFBF1;
+
+}
+
+#downloadopskrifter4 {
+    width: 50%;
+    margin-top: 10px;
+}
+
+#givvurdering4 {
+    width: 60%;
+    margin-top: 10px;
+}
+
+
+/* effektet side 4 */
+#falafelpasta4:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 41%;
+    border-radius: 50%;
+}
+
+#linser4:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 41%;
+    border-radius: 50%;
+}
+#pastabolo4:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 41%;
+    border-radius: 50%;
+}
+
+
+
+
+/* ------------------------------  SIDE 5 STYLE START--------------------------------------- */
+
+
+
+.flexboxside5-text {
+    background-color: #FFFBF1;
+    flex: 50%;
+}
+
+.flexboxside5-img {
+    background-color: #FFFBF1;
+    flex: 50%;
+}
+
+.flexboxside5text,.flexboxside5,.flexbox2side5,.flexbox3side5,.flexbox4side5 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.flexboxside5center,.flexbox2side5center,.flexbox3side5center,.flexbox4side5center  {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+
+/* cards for produtker */
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+
+}
+
+/* Clearfix (clear floats) */
+.pastaprodukter::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+#pasta1produkter,#pasta2produkter,#pasta3produkter,#pasta4produkter {
+    width: 100%;
+    transition: width 0.2s;
+}
+
+
+#ris1produkter,#ris2produkter,#ris3produkter,
+#ris4produkter {
+    width: 100%;
+    transition: width 0.2s;
+}
+
+
+#kryd1produkter,#kryd2produkter,#kryd3produkter,#kryd4produkter   {
+    width: 100%;
+    transition: width 0.2s;
+}
+
+
+/* overksirfter side 5 */
+
+#h1overskrift {
+    font-size: 20pt;
+    font-family: 'Londrina Solid', cursive;
+    color: #231F20;
+    letter-spacing: 1.2px;
+    padding-left: 15px;
+  
+}
+
+#studierabat5 {
+    width: 60%;
+
+}
+
+#h1underskrift5 {
+    font-size: 12pt;
+    font-family: 'Montserrat';
+    color: #231F20;
+    letter-spacing: 0.5px;
+    padding-left: 15px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#h1produkter,
+#h2produkter,
+#h3produkter {
+    font-size: 16pt;
+    font-family: 'Londrina Solid', cursive;
+    color: #231F20;
+    letter-spacing: 1.2px;
+    padding-left: 15px;
+}
+
+/* effekter side 5 */
+
+#pasta1produkter:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 101%;
+}
+#pasta1produkter:hover,#pasta2produkter:hover,#pasta3produkter:hover,#pasta4produkter:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 101%;
+    border-radius: 8px;
+}
+
+#ris1produkter:hover,
+#ris2produkter:hover,
+#ris3produkter:hover,
+#ris4produkter:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 101%;
+    border-radius: 8px;
+}
+
+#kryd1produkter:hover,
+#kryd2produkter:hover,
+#kryd3produkter:hover,
+#kryd4produkter:hover {
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 101%;
+    border-radius: 8px;
+}
+
+
+/* -------------------------------------SIDE 6 STYLE START--------------------------------------- */
+
+/* flexbox side 6 */
+
+.flexboxside6,.flexbox2side6,.flexbox3side6,.flexbox4side6{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.flexboxside6left,.flexbox2side6right,.flexbox2side6left,.flexbox2side6righ,.flexbox4side6center {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+}
+
+
+.flexbox3side6center {
+    background-color: #FFFBF1;
+    padding: 10px;
+    flex: 50%;
+    background-image: linear-gradient(#FFFBF1, #db9e53);
+    border-radius: 8px;
+}
+
+
+
+/* CONTENT side 6 style */
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+.column3 {
+    float: left;
+    width: 33%;
+}
+
+
+#pastafettu6 {
+    width: 100%;
+}
+
+
+#h1overskrift6 {
+    font-size: 38pt;
+    font-family: 'Londrina Solid', cursive;
+    color: #231F20;
+    letter-spacing: 1.2px;
+    padding-left: 15px;
+}
+
+#h1underskrift6 {
+    font-size: 12pt;
+    font-family: 'Montserrat';
+    color: #231F20;
+    letter-spacing: 0.5px;
+    padding-left: 15px;
+    line-height: 1.5;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+#info1box6,#info2box6,#info3box6,#info4box6 {
+    width: 70%;
+    transition: width 0.2s;
+}
+
+
+#option1side6,
+#option2side6 {
+    width: 50%;
+}
+
+#h3overskrift6,#h4overskrift6 {
+    font-size: 20pt;
+    font-family: 'Londrina Solid', cursive;
+    color: #231F20;
+    letter-spacing: 1.2px;
+
+}
+
+
+/* effekter side 6 */
+#option1side6:hover,#option2side6:hover{
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 51%;
+    border-radius: 50%;
+}
+
+#info1box6:hover,#info2box6:hover,#info3box6:hover,#info4box6:hover{
+    box-shadow: 2px 8px 10px rgb(25, 24, 24);
+    opacity: 0.8;
+    width: 71%;
+    border-radius: 8px;
+}
+
+/* -------------------------------------SIDE 7 STYLE START--------------------------------------------- */
+/* flexbox side 7 */
+
+
+.flexboxside7,.flexbox2side7,.flexbox3side7,.flexbox4side7 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.flexboxside7center,.flexbox2side7left,.flexbox2side7right,.flexbox3side7left,.flexbox3side7right,.flexbox4side7right,.flexbox4side7left {
+    background-color: #FFFBF1;
+    border-radius: 8px;
+    padding: 10px;
+    flex: 50%;
+}
+
+
+/* CONTENT side 7 start */
+#kasseroverskrift7 {
+    font-size: 38pt;
+    font-family: 'Londrina Solid', cursive;
+    color: #231F20;
+    letter-spacing: 1.2px;
+    padding-left: 15px;
+    margin-bottom: -46px;
+
+}
+
+#kasseunderskrift7 {
+    font-size: 12pt;
+    font-family: 'Montserrat';
+    color: #231F20;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding-left: 2%;
+    padding-right: 10%;
+
+
+}
+
+
+#sallingside7 {
+    width: 10%;
+    margin-bottom: -44px;
+    margin-left: 180px;
+}
+
+#kasse2underskrift7 {
+    font-size: 12pt;
+    font-family: 'Montserrat';
+    color: #231F20;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding-left: 2%;
+
+}
+
+#kasseimg7 {
+    width: 100%;
+    padding: 5%;
+}
+
+#h2overskrift7 {
+    font-size: 16pt;
+    font-family: 'Montserrat';
+    color: #231F20;
+    letter-spacing: 1.2px;
+    text-align: left;
+
+}
+
+#bestilside7 {
+    margin-top: 50px;
+    width: 90%;
+}
+
+#infoboks1side7 {
+    margin-top: 100px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+#infoboks2side7 {
+    margin-top: 100px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#bidragside7 {
+    width: 80%;
+}
+
+#kasse3side7 {
+    width: 100%;
+}
+
+/* ----------------------------------SIDE 8 STYLE START--------------------------------- */
+
+#h1underskrift8{
+    font-size: 20pt;
+    font-family: 'Montserrat';
+    color: #231F20;
+    letter-spacing: 0.5px;
+    padding-left: 15px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* -------MEDIA QUERRES START---------  */
+
+
+
+
+@media (max-width: 768px) {
+
+    /* ---- navigation---- */
+    .navigation {
+        position: relative;
+        padding: 0px 20px;
+
+    }
+
+    .navitem {
+        margin-top: 15px;
+        display: none;
+    }
+
+    .navitem.active,
+    .toggle {
+        display: block;
+    }
+
+    .toggle {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    /* ----flexbox side 1 ----*/
+    .flexboxside1 {
+        flex-direction: column;
+
+    }
+
+    .flexbox2side1 {
+        flex-direction: row;
+    }
+
+    .flexboxforsideside1 {
+        flex-direction: row;
+    }
+
+    /* ---logo--- */
+    .ungeurter1 {
+        position: relative;
+        width: 215px;
+        height: auto;
+        margin-left: 8px;
+    }
+
+    /* ---font størrelser side 1--- */
+
+    #side1baggrund {
+        display: flex;
+        width: 100%;
+        margin-bottom: 1px;
+        z-index: -1;
+    }
+
+    #opskriftertext1,#produktertext1,#kassertext1,#markertext1{
+        font-size: 16pt;
+    }
+
+ 
+    /* ----side 2 --- */
+
+    #option1side2:hover,#option2side2:hover,#option3side2:hover,#option4side2:hover  {
+        box-shadow: 2px 8px 10px rgb(25, 24, 24);
+        opacity: 0.8;
+        width: 72%;
+        border-radius: 50%;
+    }
+
+    .flexboxside2 {
+        flex-direction: column;
+    }
+
+
+    .flexbox2side2 {
+        flex-direction: column;
+    }
+
+    /* ----side 3 flex box --- */
+
+    .flexbox3side2 {
+        flex-direction: column;
+    }
+
+
+    .flexboxside3 {
+        flex-direction: column;
+    }
+
+    .flexbox2side3 {
+        flex-direction: column;
+    }
+
+    .flexbox3side3 {
+        flex-direction: row;
+    }
+
+    /* side 4 flexbox */
+
+    .flexboxside4 {
+        flex-direction: column-reverse;
+    }
+
+    .flexbox2side4 {
+        flex-direction: column;
+    }
+
+    .flexbox3side4 {
+        flex-direction: column;
+    }
+
+    .flexbox4side4 {
+        flex-direction: row;
+    }
+
+    .flexbox5side4 {
+        flex-direction: column;
+    }
+
+    .flexbox6side4 {
+        flex-direction: row;
+    }
+
+    .container {
+        font-size: 9pt;
+    }
+
+    #fremgangsmåde4 {
+        font-size: 16pt;
+    }
+
+    #ingredienser4 {
+        font-size: 16pt;
+    }
+
+    #falafelpasta4 {
+        width: 50%;
+    }
+
+    #linser4 {
+        width: 50%;
+    }
+
+    #downloadopskrifter4 {
+        width: 70%;
+    }
+
+    #givvurdering4 {
+        width: 80%;
+    }
+
+
+    #option1side2 {
+        width: 70%;
+        margin-top: 0%;
+    }
+
+    #option2side2 {
+        width: 70%;
+        margin-top: 30%;
+        margin-bottom: -12px;
+
+    }
+
+    #option3side2 {
+        width: 70%;
+        margin-top: 30%;
+        margin-bottom: 10%;
+        margin-bottom: -12px;
+    }
+
+    #option4side2 {
+        width: 70%;
+        margin-top: 30%;
+        margin-bottom: 10%;
+        margin-bottom: -12px;
+    }
+
+
+
+    /* flexbod side 5 */
+
+    .flexboxside5text {
+        flex-direction: column;
+    }
+
+    .flexboxside5 {
+        flex-direction: row;
+    }
+
+    .flexbox2side5 {
+        flex-direction: column;
+    }
+
+    .flexbox3side5 {
+        flex-direction: column;
+    }
+
+    .flexbox4side5 {
+        flex-direction: column;
+    }
+
+    /* flexbox side 6 */
+    .flexboxside6 {
+        flex-direction: column-reverse;
+    }
+
+    .flexbox2side6 {
+        flex-direction: column;
+    }
+
+    .flexbox3side6 {
+        flex-direction: row;
+    }
+
+    .flexbox4side6 {
+        flex-direction: column;
+    }
+
+    /* flexbox side 7 */
+    .flexboxside7 {
+        flex-direction: column;
+    }
+
+    .flexbox2side7 {
+        flex-direction: column;
+    }
+
+    .flexbox3side7 {
+        flex-direction: column;
+    }
+
+    .flexbox4side7 {
+        flex-direction: row;
+    }
+
+    #footer{
+        font-family: 'Montserrat';
+        text-align: left;
+        display: flex;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        justify-content: space-between;
+        font-size: 5pt;
+        padding: 5%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+
+    #h1underskrift1 {
+        font-size: 14pt;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #h2underskrift1 {
+        font-size: 14pt;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #h3underskrift1 {
+        font-size: 14pt;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #h4underskrift1 {
+        font-size: 14pt;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #ungeurterunderskrift1 {
+        font-size: 12pt;
+    }
+
+
+    .flexboxside2left2 {
+        display: none;
+    }
+
+
+}
+
+
+/* ----FOOTER STYLE START---- */
+.footerflex {
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+}
+
+#footer {
+    font-family: 'Montserrat';
+    text-align: left;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    justify-content: space-between;
+    font-size: 8pt;
+    padding: 5%;
+}
+
+#oversigt1,#oversigt2,#oversigt3,#oversigt4,#oversigt5 {
+    font-size: 8pt;
+    text-decoration: none;
+    color: #FFFBF1;
+    margin-bottom: 5px;
+
+}
+
+#oversigt1:hover,#oversigt2:hover,#oversigt3:hover,#oversigt4:hover,#oversigt5:hover {
+    opacity: 0.7;
+}
+
+#facebook {
+    height: 50px;
+    padding-left: 5%;
+    margin: 5px;
+}
+
+#instagram {
+    margin: 5px;
+    height: 50px;
+    padding-right: 10%;
+}
+
+#socialmedia {
+    display: flex;
+    padding: 5%;
+
+}
